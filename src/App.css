@@ -1,0 +1,28 @@
+#root {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #root {
+    margin: 0 10%;
+  }
+}
+
+@media only screen and (min-width: 768px)  and (max-width: 1023px){
+  #root {
+    margin: 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #root {
+    margin: 0 30%;
+  }
+}
+
+
+.App {
+
+  height: 100vh;
+
+}

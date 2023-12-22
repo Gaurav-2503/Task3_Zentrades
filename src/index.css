@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ * {
+     transition: ease-in-out 0.4s;
+     /* background-color: rgb(255, 238, 241); */
+    font-family: 'Roboto', sans-serif;
+ }
+
+body{
+    background-color: #222222;
+}
+
+.ServE {
+
+    color: transparent;
+
+    background-image: linear-gradient(
+        to bottom,
+        black 10%,
+        green 18% 27%,
+        black 30% 45%,
+        white 45% 80%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
