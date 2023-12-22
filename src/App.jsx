@@ -1,13 +1,16 @@
 import './App.css'
+import Dashboard from './components/Dashboard';
 import Login from './components/Login'
+import {  Route, Routes } from "react-router-dom";
 
 function App() {
 
   return (
-    <div className='App flex flex-col  sm:w-full justify-center'>
-      <Login/>
-    </div>
-  )
+      <Routes>
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Login />} />
+      </Routes>
+  );
 }
 
 export default App
